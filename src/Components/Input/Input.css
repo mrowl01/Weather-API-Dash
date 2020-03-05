@@ -1,0 +1,21 @@
+button{
+	background-color: rgba(75,75,75,1);
+	color:rgb(232, 240, 254);
+	border:0;
+	border-radius: 0 5px 5px 0;
+	font-size: 17pt;
+}
+input{
+	border-radius: 25px 0 0 25px;
+	border:2px solid black;
+	text-align: center;
+	font-size:17pt;
+	color:black;
+}
+
+form{
+	background-color: rgb(255,255,255,0.5);
+	padding:2%;
+	margin-bottom: 0 !important;
+
+}

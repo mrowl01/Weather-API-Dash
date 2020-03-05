@@ -1,33 +1,35 @@
-.App {
+html { 
+  background: url(https://images.pexels.com/photos/531880/pexels-photo-531880.jpeg) no-repeat center center fixed; 
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+
+body{
   text-align: center;
+  padding:8%;
+  font-size: 20px;
+  color: black;
+  height:100%;
+
 }
 
-.App-logo {
-  animation: App-logo-spin infinite 20s linear;
-  height: 40vmin;
-  pointer-events: none;
+.forecast{
+  background-color: white;
+  border-radius: 25px 25px 0 0;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  background-image: url('https://images.pexels.com/photos/531880/pexels-photo-531880.jpeg');
+
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+.form{
+  margin-bottom:2%;
+}
+.error{
+  background-color:rgb(178,34,34,0.8);
+  border-radius: 25px;
 }
 
-.App-link {
-  color: #61dafb;
-}
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
-}

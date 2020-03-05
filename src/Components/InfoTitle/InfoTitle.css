@@ -1,0 +1,22 @@
+h1{
+	font-size: 3rem;
+	
+}
+#currentTemp{
+	font-weight: bold;
+	float: right;
+	margin-right: 5%;
+	font-size: 3rem;
+	margin-bottom: 0;
+	margin-top: 1%;
+	color:rgb(255, 255, 255,0.6);
+}
+.Description{
+	font-weight: bold;
+}
+#descriptionBlock{
+	background-color:rgb(0, 0, 0, 0.9);
+	color:white;
+	padding-bottom: 3%;
+	border-radius: 25px 25px 0 0;
+}

@@ -1,0 +1,32 @@
+#class_list{
+	display: flex;
+	flex-flow: wrap;
+	background-color: rgb(255,255,255,0.5);
+	border-radius: 0 0 25px 25px;
+}
+.card{
+	flex:1;
+	border-radius: 25px;
+	margin:1%;
+	border:2px solid black;
+	background-color:rgb(255, 255, 255, 0.8);
+	/*background-color:rgb(214, 235, 238, 0.9);*/
+}
+
+@media only screen and (max-width: 850px) {
+  #class_list{
+  	display:flex;
+  	flex-flow: column;
+  	background-color: rgb(255,255,255,0.5);
+	border-radius: 0 0 25px 25px;
+  }
+  .card{
+	flex:1;
+	border-radius: 25px;
+	margin:1%;
+	border:2px solid black;
+	background-color:rgb(255, 255, 255, 0.5);
+	/*background-color:rgb(214, 235, 238, 0.9);*/
+}
+
+}
